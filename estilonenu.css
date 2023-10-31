@@ -1,0 +1,132 @@
+body{
+    background: rgb(116,9,121);
+background: linear-gradient(180deg, rgba(116,9,121,1) 0%, rgba(253,187,45,1) 100%);
+}
+.items{
+    list-style-type: none;
+    background-color: rgb(204, 32, 204);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+a:hover{
+    color: rgb(255, 255, 0);
+}
+.contac{
+    font-size: 40px;
+    padding: 50px;
+}
+.todo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    width: 100%;
+        
+}
+
+.items-nav{
+    display: inline;
+    padding: 10px;
+    font-size: 150%;
+    text-decoration: none;
+    color: white;
+}
+.PADRE{
+    background-image: url(./Imagenes/DALL·E\ 2023-10-13\ 14.35.59\ -\ Vector\ design\ with\ light\ purple\ and\ gray\ tones.\ The\ phrase\ \'La\ Nenu\'\ is\ clear\ and\ bold\ in\ the\ foreground.\ Behind\ the\ text\,\ there\ are\ delicate\ silhouet.png);
+    color: rgb(12, 8, 11);
+    background-position: 50%;
+    background-attachment: fixed;
+    height: 500px;
+    margin: 40px;
+    text-align: center;
+    font-size: 13em;
+    text-transform: uppercase;
+    text-shadow: 5px 5px rgb(46, 46, 46);
+    padding: 80px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    animation: titilar 5s 1;
+}
+@keyframes titilar{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+img{
+    width: 100%;
+}
+.tarjeta{
+    width: 250px;
+    border: 5px solid rgba(11, 14, 34, 0.993);
+    background-color: rgb(128, 62, 62);
+    padding: 25px;
+    border-radius: 60px;
+   font-size: 1.5em;
+}
+.boton-tarjeta{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: rgb(43, 29, 177);
+    color: whitesmoke;
+    border-radius: 60px;
+    font-weight: 400;
+} 
+.chocolate{
+    font-size: 2.0em;
+   
+}
+
+.contenedor{
+    flex: auto;
+    flex-wrap: wrap;
+    
+}
+.formulario{
+    background-color: rgb(134, 133, 133);
+    width: min( 60rem, 100% );
+    margin: 0 auto;
+    padding: 3rem;
+    border-radius: 3rem;
+    text-align: center;
+}
+iframe{
+    padding: 30px;
+    width: 100%;
+}
+.ubi{
+    padding: 20px;
+    font-size: 40px;
+}
+.iconos{
+    font-size: 50px;
+    display: flex;
+    list-style: none;
+    gap: 80px;
+    justify-content: center;
+    
+}
+.icons{
+    color: rgb(10, 9, 9);
+}
+.footer{
+    background: rgb(116,9,121);
+    padding: 1rem;
+}
+.obtenido{
+    font-size: 20px;
+    color: white;
+    .link{
+        text-decoration: none;
+        color: white;
+    }
+}
+
+
+
+
+
+
+
+
